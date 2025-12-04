@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Dylan Warnesuriye</title>
+  <meta name="description" content="Projects by Dylan Warnesuriye — portfolio projects" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#0f1724" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Dylan<span>Warnesuriye</span></a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project card 1 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image" aria-hidden="true">
+              <img src="Dylan Warnesuriye.jpg" alt="">
+            </div>
+            <div class="project-content">
+              <h3>Project Title One</h3>
+              <p>Brief description of the project, the tech used, and the goal.</p>
+              <div class="project-tags">
+                <span>React</span><span>API</span><span>Responsive</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image" aria-hidden="true"></div>
+            <div class="project-content">
+              <h3>Project Title Two</h3>
+              <p>Small description explaining the problem solved and approach.</p>
+              <div class="project-tags">
+                <span>Vanilla JS</span><span>Animation</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 3 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image" aria-hidden="true"></div>
+            <div class="project-content">
+              <h3>Project Title Three</h3>
+              <p>Short explanation, focus area and main features.</p>
+              <div class="project-tags">
+                <span>CSS</span><span>Design</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Source</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Dylan Warnesuriye</p>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
