@@ -101,5 +101,5 @@ document.addEventListener('DOMContentLoaded', () => {
         gsap.to(card, { transform: 'rotateX(0) rotateY(0) translateZ(0)', duration: 0.6, ease: 'power3.out' });
       });
     });
-  } // end if gsap
+  }
 });
